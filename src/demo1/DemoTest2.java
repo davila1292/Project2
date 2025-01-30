@@ -14,7 +14,7 @@ public class DemoTest2 {
 		
 	}
 
-	public void add(int a, int b){
+	public static void add(int a, int b){
 		int result = a + b;
 		System.out.println(result);
 	}
