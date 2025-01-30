@@ -9,7 +9,14 @@ public class DemoTest2 {
 		String str = "Let's make it simple";
 		
 		System.out.println(str);
+
+		add(5,5);
 		
+	}
+
+	public void add(int a, int b){
+		int result = a + b;
+		System.out.println(result);
 	}
 
 }
